@@ -1,0 +1,14 @@
+{
+  "name": "ayudoot-backend-v2",
+  "version": "1.0.0",
+  "description": "Working backend for Dialogflow and WhatsApp.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "@google-cloud/dialogflow": "^6.2.0",
+    "twilio": "^5.0.4"
+  }
+}
